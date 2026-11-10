@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Only secret variable files are ignored
+secrets.auto.tfvars
+*.secret.tfvars
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
